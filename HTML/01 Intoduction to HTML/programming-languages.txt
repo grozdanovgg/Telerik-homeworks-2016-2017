@@ -1,0 +1,15 @@
+c#
+If you are developing applications for Windows desktops, 
+or for Windows servers (e.g. ASPdotNET), or for Windows phone.
+
+C++
+If you are developing a PC game or writing an OS.
+
+Java
+If you are writing server applications (e.g. web or mobile), or targeting Android phones.
+
+Swift
+If you are targeting iPhones/iPads.
+
+Javascript
+If you are building the browser side of an application, or if using node.js.

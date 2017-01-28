@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Last Name</title>
+    <style media="screen">
+        table,
+        th,
+        td {
+            font-family: Arial;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .left {
+            padding: 6px;
+            text-align: right;
+            font-weight: bold;
+            width: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://telerikacademy.com" method="get">
+
+
+        <table border="red">
+            <!-- Last Name -->
+            <tr>
+                <td class="left" width="170px">
+                    Last Name
+                </td>
+                <td width="170px" colspan="3">
+                    <input placeholder="Enter your Last name" type="text" name="Last Name">
+                </td>
+            </tr>
+
+            <!-- First Name -->
+            <tr>
+                <td class="left">
+                    First Name
+                </td>
+                <td colspan="3">
+                    <input type="text" name="First Name" placeholder="Enter your First name">
+                </td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td class="left">
+                    Adress
+                </td>
+                <td colspan="3">
+                    <textarea name="Address" rows="3" cols="40"></textarea>
+                </td>
+            </tr>
+
+            <!-- City -->
+            <tr>
+                <td class="left">
+                    City
+                </td>
+                <td>
+                    <input type="text" name="City" placeholder="Your current city">
+                </td>
+                <!-- State -->
+                <td>
+                    <b>State</b>
+                </td>
+                <td>
+                    <input type="text" name="State" placeholder="Your your current State">
+                </td>
+            </tr>
+
+            <!-- ZIP -->
+            <tr>
+                <td class="left">
+                    Zip/Postal Code
+                </td>
+                <td colspan="3">
+                    <input type="number" name="ZIP" placeholder="4 digits ZIP" min="0" max="9999">
+                </td>
+            </tr>
+            <!-- Country -->
+            <tr>
+                <td class="left">
+                    Country
+                </td>
+                <td colspan="3">
+                    <select name="gender" class="country-select">
+                  <option value="1"
+                    selected="selected">Bulgaria</option>
+                  <option value="2">US</option>
+                  <option value="3">UK</option>
+                </select>
+                </td>
+            </tr>
+            <!-- Phone -->
+            <tr>
+                <td class="left">
+                    Phone (country code, areae code, number)
+                </td>
+                <td colspan="3">
+                    (+
+                    <input type="number" min="0" max="999" placeholder="XXX">
+                    <input type="number" min="0" max="99" placeholder="XX">
+                    <input type="number" min="0" max="9999999" placeholder="XXXXXXX">
+                </td>
+            </tr>
+            <!-- E-mail -->
+            <tr>
+                <td class="left">
+                    E-mail
+                </td>
+                <td colspan="3">
+                    <input type="email" required="true" placeholder="username@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
+                </td>
+            </tr>
+            <!-- Birth date -->
+            <tr>
+                <td class="left">
+                    Birth date
+                </td>
+                <td colspan="3">
+                    Month
+                    <input type="number" name="Month" min="0" max="12" placeholder="XX"> Day
+                    <input type="number" name="Day" min="0" max="31" placeholder="XX"> Year
+                    <input type="number" name="Year" min="1900" max="2050" placeholder="XXXX">
+                </td>
+            </tr>
+            <!-- Gender -->
+            <tr>
+                <td class="left">
+                    Gender
+                </td>
+                <td colspan="3">
+                    <select name="Gender">
+                    <option value="Value 1"selected="selected">Male</option>
+                    <option value="Value 2">Female</option>
+                    <option value="Value 3">Other</option>
+                </select>
+                </td>
+            </tr>
+            <!-- Starting date -->
+            <tr>
+                <td class="left">
+                    Starting date
+                </td>
+                <td colspan="3">
+                    <label>
+                <input type="radio" name="StartingDate">
+                Spring 2006
+              </label>
+                    <label>
+                <input type="radio" name="StartingDate">
+                Summer 2006
+              </label>
+
+                </td>
+            </tr>
+            <!-- Comments -->
+            <tr>
+                <td class="left">
+                    Comments/Questions
+                </td>
+                <td colspan="3">
+                    <textarea name="Comments" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+            <!-- Submit -->
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" name="submitBtn" value="Submit">
+                    <input type="reset" name="Reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
