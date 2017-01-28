@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Messages", "01 Messages\01 Messages.csproj", "{665F344A-2603-4977-ABA0-D71023728564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Bit Shift Matrix", "02 Bit Shift Matrix\02 Bit Shift Matrix.csproj", "{605F5B62-C272-4136-BA49-D0FC2C1B2219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665F344A-2603-4977-ABA0-D71023728564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665F344A-2603-4977-ABA0-D71023728564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665F344A-2603-4977-ABA0-D71023728564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665F344A-2603-4977-ABA0-D71023728564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605F5B62-C272-4136-BA49-D0FC2C1B2219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605F5B62-C272-4136-BA49-D0FC2C1B2219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605F5B62-C272-4136-BA49-D0FC2C1B2219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605F5B62-C272-4136-BA49-D0FC2C1B2219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

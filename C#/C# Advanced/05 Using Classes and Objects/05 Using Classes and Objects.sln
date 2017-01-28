@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Leap year", "01 Leap year\01 Leap year.csproj", "{A8EE9463-C218-49E8-9508-A723689F8BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Random numbers", "02 Random numbers\02 Random numbers.csproj", "{29A10FCB-F6C4-4D3B-879E-67F672552F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Day of week", "03 Day of week\03 Day of week.csproj", "{D713AD4E-9098-4ED4-A18F-AB385E813C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Triangle surface by side and altitude", "04 Triangle surface by side and altitude\04 Triangle surface by side and altitude.csproj", "{F466AC17-7DE2-4C63-8921-147822FF35B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Triangle surface by three sides", "05 Triangle surface by three sides\05 Triangle surface by three sides.csproj", "{A9B80BB2-4768-43D3-8067-5ECAF196EA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Triangle surface by two sides and an angle", "06 Triangle surface by two sides and an angle\06 Triangle surface by two sides and an angle.csproj", "{7C2E5406-5CE1-4B99-A728-2BD224919588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Workdays", "07 Workdays\07 Workdays.csproj", "{A2306DBC-B6D2-4F4B-9EE8-0AE799DB8EEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EE9463-C218-49E8-9508-A723689F8BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE9463-C218-49E8-9508-A723689F8BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE9463-C218-49E8-9508-A723689F8BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE9463-C218-49E8-9508-A723689F8BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A10FCB-F6C4-4D3B-879E-67F672552F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A10FCB-F6C4-4D3B-879E-67F672552F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A10FCB-F6C4-4D3B-879E-67F672552F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A10FCB-F6C4-4D3B-879E-67F672552F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D713AD4E-9098-4ED4-A18F-AB385E813C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D713AD4E-9098-4ED4-A18F-AB385E813C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D713AD4E-9098-4ED4-A18F-AB385E813C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D713AD4E-9098-4ED4-A18F-AB385E813C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F466AC17-7DE2-4C63-8921-147822FF35B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F466AC17-7DE2-4C63-8921-147822FF35B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F466AC17-7DE2-4C63-8921-147822FF35B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F466AC17-7DE2-4C63-8921-147822FF35B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B80BB2-4768-43D3-8067-5ECAF196EA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B80BB2-4768-43D3-8067-5ECAF196EA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B80BB2-4768-43D3-8067-5ECAF196EA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B80BB2-4768-43D3-8067-5ECAF196EA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2E5406-5CE1-4B99-A728-2BD224919588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2E5406-5CE1-4B99-A728-2BD224919588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2E5406-5CE1-4B99-A728-2BD224919588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2E5406-5CE1-4B99-A728-2BD224919588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2306DBC-B6D2-4F4B-9EE8-0AE799DB8EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2306DBC-B6D2-4F4B-9EE8-0AE799DB8EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2306DBC-B6D2-4F4B-9EE8-0AE799DB8EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2306DBC-B6D2-4F4B-9EE8-0AE799DB8EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
