@@ -1,1 +1,1 @@
-# TelerikAcademy
+# TelerikAcademy - the jurney
