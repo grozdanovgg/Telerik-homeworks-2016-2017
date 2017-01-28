@@ -1,0 +1,103 @@
+body {
+    font-size: 14px;
+    font-family: Arial;
+    color: #1D86B0;
+    height: 450px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+#root {
+    width: 610px;
+    margin: 15px;
+    height: 450px;
+}
+
+.chat-container {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    margin: 2px;
+    padding: 10px;
+    background: -webkit-linear-gradient(top, #4ae871 45%, #f1ffbc 75%);
+    height: 450px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.chat-container>h2 {
+    text-align: center;
+}
+
+.chat-container .messages .me {
+    text-align: left;
+}
+
+.chat-container .messages .other {
+    text-align: right;
+}
+
+.chat-container .messages ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.chat-container .messages ul li {
+    font-style: italic;
+}
+
+.chat-container .messages ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    background: #000000;
+}
+
+.chat-container .messages ul li span {
+    display: block;
+    font-style: normal;
+    word-break: break-word;
+}
+
+.chat-container .sent-message {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    text-align: justify;
+}
+
+.chat-container .sent-message input {
+    background-color: inherit;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+    font-size: 20px;
+    width: 53%;
+    padding: 10px 5px 5px 15px;
+}
+
+.chat-container .sent-message button {
+    background-color: inherit;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+    font-size: 20px;
+    width: 30%;
+    padding: 10px 10px 5px 5px;
+    color: #1D86B0;
+}

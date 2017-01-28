@@ -1,0 +1,28 @@
+*{
+  font-family: sans-serif;
+  margin: 2px;
+  padding: 2px;
+  line-height: 1.8;
+  text-indent: 10px;
+  font-size: 14px;
+}
+
+th {
+  background-color: #57b807;
+  font-weight: 200;
+  text-align: left;
+  padding-right: 50px;
+  color: white;
+
+}
+
+td {
+  padding-right: 50px;
+
+}
+tr:not(.SectionHeader):nth-of-type(odd) {
+    background-color:#FDEBD0;
+}
+tr:not(.SectionHeader):nth-of-type(even) {
+    background-color:white;
+}

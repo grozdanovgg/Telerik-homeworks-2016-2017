@@ -1,0 +1,87 @@
+/*
+o	#0078D7
+o	#333333
+o	#505050
+o	#CCCCCC
+*/
+html, body {
+  font-family: 'Segoe UI', 'Segoe UI Web', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0 auto;
+  width: 1000px;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+h1 {
+    30px;
+}
+h2 {
+    font-size: 24px;
+}}
+p {
+    font-size: 16px;
+}
+
+#headerTitle{
+  position: absolute;
+  top: 20px;
+  left: 290px;
+  font-size: 22px;
+}
+.separator{
+  position: absolute;
+  content: '';
+  width: 0;
+  height:40px;
+  border: 3px solid black;
+  top: 10px;
+  left: 280px;
+}
+
+#search {
+  background-color: rgb(67, 88, 198);
+  text-align: center;
+  padding: 10px;
+}
+#footer {
+    font-size: 14px;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    padding: 15px;
+}
+#footer ul li {
+  list-style: none;
+  display: inline;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  padding-right: 40px;
+}
+#footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+#copyright {
+  float: right;
+  position: relative;
+  bottom: 15px;
+  font-weight: bold;
+
+}
+
+#main>h2{
+  font-weight: normal;
+}
+
+hr {
+    height: 5px;
+    background-color: #000000;
+}
+
+#logo {
+   content:url(images/logo.png);
+}​
+/logo.png);
+}​

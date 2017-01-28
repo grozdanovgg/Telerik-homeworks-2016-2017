@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 20px 800px 10px 10px;
+    font-size:14px;
+}
+
+@font-face{
+    font-family: EdwardianScriptITC;
+    src: url("EdwardianScriptITC.ttf");
+}
+
+div{
+    color:#0094ff;
+    font-family: Consolas;
+}
+
+div:first-letter{
+font-family: EdwardianScriptITC;
+font-size: 38px;
+}
+
+div:first-line{
+font-weight: bold;
+}

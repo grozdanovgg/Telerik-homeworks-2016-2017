@@ -1,0 +1,58 @@
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#525252;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+header {
+	background-image: url(images/header-bg.png);
+}
+header h1	{
+	text-transform: uppercase;
+	font-size: 16px;
+	float:left;
+}
+#content h1 {
+	font-size: 24px;
+}
+article p {
+	font-size: 14px;
+
+}
+
+#nav {
+	float:right;
+}
+#nav ul	{
+	list-style:
+}
+#nav ul li{
+	display: inline;
+	padding: 8px;
+	font-size: 14px;
+}
+#searchBar {
+	background-color: black;
+	padding: 8px;
+	color: #A0A0A0;
+}
+#archives {
+	float:left;
+}
+#archives a {
+	color: #A0A0A0;
+	text-decoration: none;
+}
+#search a {
+	float: right;
+	color: #A0A0A0;
+	text-decoration: none;
+	font-size: 14px;
+}

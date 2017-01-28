@@ -1,0 +1,62 @@
+html, body {
+	font-family: "Times New Roman";
+  font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: #000000
+  /*•	All pixel sizes (except fonts and borders) are divisible by 5px.*/
+}
+.avengers>li {
+  display: inline-table;
+  padding: 15px;
+  background-color: white;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 15px 0 0 0;
+  font-weight: bold;
+}
+#root{
+  width: 700px;
+}
+.skills {
+	list-style: none;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 55px;
+	position: relative;
+	left:30%;
+	right: auto;
+	bottom: 70%;
+	font-weight: 100;
+
+}
+.preview>img{
+	border: 5px white solid;
+	border-radius: 5px;
+	position: relative;
+	max-width: 400px;
+	left: 20px;
+	top: 20px;
+}
+.avenger .preview {
+  display: none;
+  position: absolute;
+  top:70px;
+  left: 40px;
+  background-color: #C6C6C6;
+	width: 660px;
+	height: 280px;
+}
+.avenger>.preview>ul>li:hover {
+	text-decoration: underline;
+}
+
+.avengers>li:hover{
+	background-color: #C6C6C6;
+	text-decoration: underline;
+}
+.avengers li:hover .preview{
+  display: inline-block;
+}

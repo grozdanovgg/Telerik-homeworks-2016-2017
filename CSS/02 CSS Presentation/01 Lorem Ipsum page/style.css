@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Edwardian;
+    src: url(EdwardianScriptITC.ttf);
+}
+
+@font-face {
+  font-family: Consolas;
+  src: url(Consolas.ttf);
+}
+
+*{
+  color:#0094ff;
+}
+h1{
+  font-family: Consolas;
+  font-size: 15px;
+  line-height: 10px;
+  padding-top: 20px;
+
+}
+
+h1::first-letter  {
+  font-size: 45px;
+  font-family: Edwardian;
+}
+p{
+  font-family: Consolas;
+  font-size: 15px;
+
+}

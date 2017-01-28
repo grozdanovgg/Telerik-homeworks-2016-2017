@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.8;
+    text-indent: 10px;
+}
+
+
+#italic-last-action, #italic-name, .italic {
+    font-style: italic;
+    color: white;
+
+
+}
+body {
+  background-color: grey;
+}
+.fafa-circle {
+    color: #70b379;
+    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+h4 {
+    color: #ABB2B9;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+h4, table {
+    font-family: "Verdana", sans-serif;
+}
+.color-grey{
+  color: #ABB2B9;
+}
+.color-beige {
+  color: #FAD7A0;
+}
+.orange {
+  color: orange;
+}
+
+#italic-name {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#color-red {
+    color: red;
+    vertical-align: top;
+}
+
+#firstRow {
+    line-height: 4px;
+    vertical-align: top;
+}
